@@ -1,2 +1,2 @@
 # Enodre — We untangle what's holding your business back.
-A studio for companies facing complexity: messy workflows, outdated systems, half-built ideas. We turn tangled processes into clear, working solutions — frontend, UX, AI automation — from first consultation to shipped product. One partner, end to end. We don't just build software. We untangle how you work.
+A studio for companies drowning in messy, manual processes. We design and build the digital workflows that fix it — from field operations to admin dashboards — turning paper trails and spreadsheets into clear, working systems. Built end to end: UX, frontend, and product, from first consultation to shipped software.

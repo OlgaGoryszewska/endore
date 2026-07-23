@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { caseStudies, services } from "@/lib/content";
 
@@ -5,21 +6,35 @@ export default function Home() {
   return (
     <>
       <section className="shell py-20 sm:py-28 lg:py-36">
-        <p className="eyebrow mb-8">Digital product studio</p>
-        <h1 className="display-title max-w-6xl">
-          We untangle what&apos;s holding your business back.
-        </h1>
-        <p className="mt-10 max-w-2xl text-lg leading-8 text-ink-muted sm:text-xl">
-          We design and build digital workflows that turn paper trails and
-          spreadsheets into clear, working systems.
-        </p>
-        <div className="mt-10 flex flex-wrap gap-4">
-          <Link className="rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background" href="/services">
-            Explore our services
-          </Link>
-          <Link className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold" href="/case-studies">
-            See our work
-          </Link>
+        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(22rem,0.95fr)] lg:gap-16">
+          <div>
+            <p className="eyebrow mb-8">Digital product studio</p>
+            <h1 className="display-title">
+              We untangle what&apos;s holding your business back.
+            </h1>
+               <Image
+            src="/hero-img.png"
+            alt="Hands untangling interconnected strands"
+            width={1536}
+            height={1024}
+            sizes="(min-width: 1024px) 42vw, calc(100vw - 2rem)"
+            className="h-auto pt-10 w-full"
+            preload
+          />
+            <p className="mt-10 max-w-2xl text-lg leading-8 text-ink-muted sm:text-xl">
+              We design and build digital workflows that turn paper trails and
+              spreadsheets into clear, working systems.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background" href="/services">
+                Explore our services
+              </Link>
+              <Link className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold" href="/case-studies">
+                See our work
+              </Link>
+            </div>
+          </div>
+       
         </div>
       </section>
 

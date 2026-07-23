@@ -26,11 +26,14 @@ export default function Home() {
               spreadsheets into clear, working systems.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background" href="/services">
-                Explore our services
+              
+              <Link className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background" href="/services">
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-card" />
+                <span>Explore our services</span>
               </Link>
-              <Link className="rounded-full border border-black/20 px-6 py-3 text-sm font-semibold" href="/case-studies">
-                See our work
+              <Link className="inline-flex items-center gap-2 rounded-full border border-black/20 px-6 py-3 text-sm font-semibold" href="/case-studies">
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-foreground" />
+                <span>See our work</span>
               </Link>
             </div>
           </div>

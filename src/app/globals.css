@@ -6,7 +6,7 @@
   --foreground: #17211b;
   --muted: #647068;
   --accent: #A997FD;
-  --card: #EDEDED;
+  --card: #ffff;
 }
 
 @theme inline {

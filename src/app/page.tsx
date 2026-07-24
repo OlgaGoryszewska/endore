@@ -28,7 +28,7 @@ export default function Home() {
             <div className="mt-10 flex flex-wrap gap-4">
               
               <Link className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background" href="/services">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-card" />
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-background" />
                 <span>Explore our services</span>
               </Link>
               <Link className="inline-flex items-center gap-2 rounded-full border border-black/20 px-6 py-3 text-sm font-semibold" href="/case-studies">

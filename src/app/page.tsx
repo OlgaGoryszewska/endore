@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { caseStudies, services } from "@/lib/content";
+import { ChallengeSection } from "@/components/challenge/ChallengeSection";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               
-              <Link className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background" href="/services">
+              <Link className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-m font-semibold text-background" href="/services">
                 <span aria-hidden="true" className="h-2 w-2 rounded-full bg-background" />
                 <span>Explore our services</span>
               </Link>
@@ -79,6 +80,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <ChallengeSection />
     </>
   );
 }

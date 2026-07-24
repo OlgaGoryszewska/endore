@@ -7,6 +7,8 @@
   --muted: #647068;
   --accent: #A997FD;
   --card: #ffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --danger: #d3455b;
 }
 
 @theme inline {
@@ -15,6 +17,8 @@
   --color-ink-muted: var(--muted);
   --color-accent: var(--accent);
   --color-card: var(--card);
+  --color-border: var(--border);
+  --color-danger: var(--danger);
   --font-sans: "Satoshi", Arial, Helvetica, sans-serif;
   --font-display: "Cabinet Grotesk", "Satoshi", Arial, Helvetica, sans-serif;
   --font-ui: "Manrope", "Satoshi", Arial, Helvetica, sans-serif;
